@@ -1,0 +1,3 @@
+This is my first project demonstrating my skills in HTML/CSS. In this project I have learned...
+
+From The Odin Project's Web Development 101 (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
