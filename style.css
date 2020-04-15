@@ -1,0 +1,11 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+#searchbar {
+    position: relative;
+    background-color: gray;
+}
