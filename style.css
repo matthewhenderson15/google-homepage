@@ -18,3 +18,42 @@ input {
     border-width: 1px;
     box-shadow: 0px 0px 0px 0px;
 }
+
+/*Insert input hover element*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*.flexStart {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.flexEnd {
+    display: flex;
+    justify-content: flex-end
+}*/
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
