@@ -5,21 +5,28 @@ img {
     margin-top: 156px;
 }
 
-input {
+#search {
     position: relative;
-    width: 45.5%;
-    height: 39px;
+    width: 40.5%;
+    height: 42px;
     display: block;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    border-color: lightgray lightgray;
+    border: 1px solid;
+    border-color: #dcdcdc;
     border-radius: 25px 25px;
     border-width: 1px;
-    box-shadow: 0px 0px 0px 0px;
+    padding: 0 35px;
 }
 
-/*Insert input hover element*/
+input:hover {
+    box-shadow: 1px 1px 2px 2px #dcdcdc;
+}
+
+input:focus {
+    outline: none;
+}
 
 a {
     box-sizing: border-box;
@@ -27,7 +34,7 @@ a {
     padding: 0;
 }
 
-li, a {
+.navbar, a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     list-style-type: none;
@@ -47,6 +54,15 @@ li, a {
     padding: 7px 13px;
 }
 
+
+.sign_in_button:focus {
+    outline: none;
+}
+
+.sign_in_button:active {
+    background-color: royalblue;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -60,13 +76,24 @@ nav li {
 }
 
 .nav_1 {
-    margin-top: -575px;
+    margin-top: -722px;
     margin-left: -35px;
 }
 
 .nav_2 {
-    margin-top: -575px;
+    margin-top: -722px;
     margin-right: 11px;
+}
+
+.nav_3 {
+    margin-top: -10px;
+    margin-left: -25px;
+    font-size: 36px;
+}
+
+.nav_4 {
+    margin-top: -20px;
+    margin-right: 20px;
 }
 
 a:hover {
@@ -81,28 +108,74 @@ a:hover {
 .fa:hover {
     color: black;
 }
+
 #google_search {
-    color: black;
-    background: gray;
-    border-radius: 25px 25px;
-    border-width: 1px;
+    width: 130px;
+    height: 38px;
+    display: inline-block;
+    color: #585858;
+    background-color: #f0f0f0;
+    margin-left: 485px;
+    margin-top: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px #f8f8f8;
+    border-radius: 5px 5px;
 }
 
+#google_search:hover {
+    box-shadow: 1px 1px 2px 2px #dcdcdc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+    
 #feeling_lucky {
-    color: black;
-    background: gray;
+    width: 140px;
+    height: 38px;
+    display: inline-block;
+    color: #585858;
+    background-color: #f0f0f0;
+    margin-left: 5px;
+    margin-top: 22px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    vertical-align: middle;
+    border: 1px #f8f8f8;
+    border-radius: 5px 5px;
 }
 
-.search_buttons {
+#feeling_lucky:hover {
+    box-shadow: 1px 1px 2px 2px #dcdcdc;
+    background-color: #f5f5f5;
+    cursor: pointer;
+}
+
+.footer {
+    position: fixed;
+    height: 40px;
+    background-color: #f0f0f0;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.mag_glass {
+    display: flex;
+    margin-top: -52px;
+    margin-left: 350px;
     position: relative;
-    width: 45.5%;
-    height: 39px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 30px;
-    border-color: lightgray lightgray;
-    border-radius: 25px 25px;
-    border-width: 1px;
-    box-shadow: 0px 0px 0px 0px;
+    z-index: 1;
+}
+
+.google_mic {
+    display: flex;
+    margin-top: -50px;
+    margin-left: 880px;
+    position: relative;
+    z-index: 1;
 }
