@@ -1,3 +1,3 @@
-This is my first project demonstrating my skills in HTML/CSS. In this project I have learned...
+This is my first project demonstrating my skills in HTML/CSS. In this project I built the Google homepage using basic HTML and CSS. This comes from the Odin Project curriculum.
 
-From The Odin Project's Web Development 101 (http://www.theodinproject.com/courses/web-development-101/lessons/html-css)
+To view this project please visit my Github pages: https://matthewhenderson15.github.io/google-homepage/.
